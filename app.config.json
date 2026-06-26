@@ -1,0 +1,14 @@
+{
+  "environmentUrl": "https://abc123.apps.dynatrace.com",
+  "app": {
+    "id": "my.ai.nexus",
+    "name": "AI Nexus",
+    "version": "0.7.3",
+    "description": "Central hub for AI-generated skills, prompts, dashboards and apps",
+    "scopes": [
+      { "name": "document:documents:read", "comment": "Read persisted data from Document Store" },
+      { "name": "document:documents:write", "comment": "Write data to Document Store" },
+      { "name": "document:documents:delete", "comment": "Delete documents from Document Store" }
+    ]
+  }
+}
